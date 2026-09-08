@@ -1,0 +1,30 @@
+{
+  "name": "block-batch-clearing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Every swap in a block clears at one price, and orders that want opposite sides fill against each other for free.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/block-batch-clearing.git"
+  },
+  "homepage": "https://block-batch-clearing.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "mev",
+    "batch-auction",
+    "uniform-price",
+    "order-flow",
+    "no-admin"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
